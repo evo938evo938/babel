@@ -6,7 +6,6 @@ export default declare(
     api,
     {
       allExtensions = false,
-      allowDeclareFields,
       allowNamespaces,
       jsxPragma,
       isTSX = false,
@@ -28,7 +27,6 @@ export default declare(
     }
 
     const pluginOptions = isTSX => ({
-      allowDeclareFields,
       allowNamespaces,
       isTSX,
       jsxPragma,
